@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  color: white;
+}
+
+body {
+  max-width: 1280px;
+  background-color: black;
+  margin: auto;
+}
+
+#titulo-header {
+  text-align: center;
+  font-size: 50px;
+}
+
+#container-descripcion {
+  display: flex;
+  height: 348px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#texto-descripcion {
+  font-size: 16px;
+  width: 475px;
+}
+
+#img-descripcion {
+  width: 399px;
+  height: 237px;
+}
+
+#container-caracteristicas {
+  text-align: center;
+  background-color: #1e1a13;
+  height: 348px;
+  align-content: center;
+}
+
+#titulo-caracteristicas {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#container-iconos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto-iconos {
+  margin-top: 16px;
+  font-size: 25px;
+}
+
+#container-galeria {
+  display: flex;
+  height: 348px;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+}
+
+.img-galeria {
+  width: 316px;
+  height: 202px;
+}
+
+#container-footer {
+  background-color: #1e1a13;
+  height: 102px;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
